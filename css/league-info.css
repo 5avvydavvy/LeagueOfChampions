@@ -1,0 +1,148 @@
+body {
+    background-color: #c6e1e5;
+}
+
+/* Navigation Header */
+.header-main {
+width: 100%;
+height: 80px;
+color: white;
+background-color: black;
+display: flex;
+justify-content: space-between;
+}
+
+.header-main-logo {
+width: fit-content;
+height: 100%;
+background-color: black;
+display: flex;
+}
+
+.header-main-logo img {
+height: 80px;
+align-self: center;
+}
+
+.header-main-nav {
+width: fit-content;
+height: 100%;
+}
+
+.header-main-nav ul {
+list-style: none;
+margin-left: 0px;
+}
+
+.header-main-nav ul li {
+display: inline;
+float: left;
+}  
+
+.header-main-nav ul li a {
+padding: 0 10px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+line-height: 80px;
+}
+
+.header-main-nfl {
+width: fit-content;
+height: 100%;
+background-color: red;
+} 
+
+.header-main-nfl img {
+height: 80px;
+align-self: center;
+}
+  
+
+/*CHARTER*/
+.charter {
+    height: fit-content;
+    width: 500px;
+    background-color: whitesmoke;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.charter-header {
+    margin: 10px 0;
+}
+
+.charter h1 {
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: none;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 30px;
+    word-spacing: normal;
+    word-wrap: normal;
+}
+
+.charter h2 {
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: none;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 30px;
+    word-spacing: normal;
+    word-wrap: normal;
+    margin: 20px 0;
+}
+
+.charter h3 {
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: none;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 30px;
+    word-spacing: normal;
+    word-wrap: normal;
+    margin: 20px 0 0 0;
+}
+
+.charter p {
+    font-family: Helvetica, sans-serif;
+}
+
+.charter table {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.charter table, th, td {
+    font-family: Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-radius: 2px;
+    border-spacing: 0;
+    padding: 10px;
+}
+
+.charter table th {
+    border: 1px solid gray;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.charter table td {
+    border: 1px solid gray;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
