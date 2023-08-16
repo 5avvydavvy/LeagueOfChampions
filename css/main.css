@@ -1,0 +1,144 @@
+/*---- Navigation Header ----*/
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+header img {
+  height: 80px;
+}
+
+.header-links {
+  display: flex;
+}
+
+.header-links ul {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.header-links ul li {
+  float: left;
+}  
+
+.header-links ul li a {
+  padding: 0 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  line-height: 80px;
+}
+
+.nfl-fantasy-logo {
+  display: none;
+}
+
+/*---- Body ----*/
+
+body {
+  background-color: whitesmoke;
+}
+
+main {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.important-dates {
+  height: fit-content;
+  width: 500px;
+  background-color: #73b9e7;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.important-dates h1 {
+  font-size: 24px;
+}
+
+main h1 {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  line-height: 30px;
+  word-spacing: normal;
+  word-wrap: normal;
+  text-shadow: 0 0 6px black;
+}
+
+main h2 {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  line-height: 30px;
+  word-spacing: normal;
+  word-wrap: normal;
+  text-shadow: 0 0 6px black;
+
+}
+
+main h3 {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 30px;
+  word-spacing: normal;
+  word-wrap: normal;
+}
+
+.important-dates p {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  font-style: italic;
+  text-align: center;
+  text-decoration: double;
+  text-transform: capitalize;
+  line-height: 30px;
+  word-spacing: normal;
+  word-wrap: normal;
+  text-shadow: 0 0 2px black;
+  padding-top: 10px;
+}
+
+/*---- Mobile Styling ----*/
+
+@media (max-width: 420px) {
+
+  .important-dates {
+    height: fit-content;
+    width: 90%;
+  }
+  
+  b {
+    font-weight: bold;
+  }
+}
+
+/*---- Footer ----*/

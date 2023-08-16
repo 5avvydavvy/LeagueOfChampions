@@ -1,0 +1,121 @@
+/*---- Charter ----*/
+
+.charter {
+    height: fit-content;
+    width: 500px;
+    background-color: #73b9e7;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.charter p {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: justify;
+    text-decoration: double;
+    text-transform: none;
+    line-height: 22px;
+    word-spacing: normal;
+    word-wrap: normal;
+}
+
+.charter h1 {
+    text-decoration: none;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-shadow: 0 0 6px black;
+} 
+
+.draft {
+    padding: 10px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+    gap: 10px;
+}
+
+.keepers {
+    padding: 10px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+    gap: 10px;
+}
+
+.trades {
+    padding: 10px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+    gap: 10px;
+}
+
+.scheduling {
+    padding: 10px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+    gap: 10px;
+}
+
+.prizes {
+    padding: 10px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+    gap: 10px;
+}
+
+.dues {
+    padding: 10px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+    gap: 10px;
+}
+
+.charter table {
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+    background-color: #3c97d3;
+}
+
+.charter table, th, td {
+    font-family: Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-radius: 2px;
+    border-spacing: 0;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.charter table th {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*---- Mobile Styling ----*/
+
+@media (max-width: 420px) {
+
+    .charter {
+        width: 90%;
+    } 
+}
