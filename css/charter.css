@@ -3,7 +3,7 @@
 .charter {
     height: fit-content;
     width: 500px;
-    background-color: #73b9e7;
+    background-color: #9e0000;
     margin: 0 auto;
     padding: 20px;
 }
@@ -94,7 +94,7 @@
     width: 80%;
     margin: 10px auto;
     color: white;
-    background-color: #3c97d3;
+    background-color: #6b0000;
 }
 
 .charter table, th, td {
