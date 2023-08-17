@@ -57,7 +57,7 @@ main {
 .important-dates {
   height: fit-content;
   width: 500px;
-  background-color: #73b9e7;
+  background-color: #9e0000;
   margin: 0 auto;
   padding: 20px;
 }
@@ -67,7 +67,7 @@ main {
 }
 
 main h1 {
-  color: white;
+  color: whitesmoke;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   font-weight: 600;
@@ -82,7 +82,7 @@ main h1 {
 }
 
 main h2 {
-  color: white;
+  color: whitesmoke;
   font-family: Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -98,7 +98,7 @@ main h2 {
 }
 
 main h3 {
-  color: white;
+  color: whitesmoke;
   font-family: Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -112,7 +112,7 @@ main h3 {
 }
 
 .important-dates p {
-  color: white;
+  color: whitesmoke;
   font-family: Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 100;
