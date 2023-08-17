@@ -1,14 +1,14 @@
 table {
     height: fit-content;
     width: 500px;
-    background-color: #3c97d3;
+    background-color: #9e0000;
     border: 3px solid lightgray;
     border-collapse: collapse;
     margin: 30px auto;
 }
 
 table th {
-    border: 2px solid white;
+    border: 2px solid whitesmoke;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -25,7 +25,7 @@ table th {
 }
 
 table td {
-    border: 2px solid white;
+    border: 2px solid whitesmoke;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
