@@ -111,6 +111,21 @@
     font-weight: bold;
 }
 
+ol {
+    list-style-type: decimal;
+    list-style-position: outside;
+    align-self: center;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    padding-left: 30px;
+}
+
+ol li {
+    padding-left: 10px;
+}
+
 /*---- Mobile Styling ----*/
 
 @media (max-width: 420px) {
