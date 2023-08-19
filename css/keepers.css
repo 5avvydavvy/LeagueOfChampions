@@ -1,137 +1,68 @@
-body {
-    background-color: whitesmoke;
+/*---- Body ----*/
+
+main {
+    padding-top: 80px;
 }
 
-/* Navigation Header */
-.header-main {
-    width: 100%;
-    height: 80px;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-}
-
-.header-main-logo {
-    width: fit-content;
-    height: 100%;
-    background-color: black;
-    display: flex;
-}
-
-.header-main-logo img {
-    height: 80px;
-    align-self: center;
-}
-
-.header-main-nav {
-    width: fit-content;
-    height: 100%;
-}
-
-.header-main-nav ul {
-    list-style: none;
-    margin-left: 0px;
-}
-
-.header-main-nav ul li {
-    display: inline;
-    float: left;
-}  
-
-.header-main-nav ul li a {
-    padding: 0 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-    line-height: 80px;
-}
-
-.header-main-nfl {
-    width: fit-content;
-    height: 100%;
-    background-color: red;
-} 
-
-.header-main-nfl img {
-    height: 80px;
-    align-self: center;
-}
-
-/* Body */
-.keeper-information-2023 {
-    margin: ;
-    padding: ;
-    display: ;
-}
-
-.keeper-information-2023 h1 {
+main h1 {
     color: white;
     padding: 25px;
-    margin-bottom: 30px;
     background-color: #00000062;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 36px;
-    font-weight: 200;
-    font-style: italic;
-    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    line-height: 30px;
-    word-spacing: normal;
-    word-wrap: normal;
 }
 
-.keeper-information-2023 h2 {
-    color: #3c97d3;
-    font-family: Arial, Helvetica, sans-serif;
+main h2 {
     font-size: 30px;
-    font-weight: 200;
-    font-style: italic;
-    text-align: center;
-    text-decoration: underline;
-    text-transform: capitalize;
-    line-height: 30px;
-    word-spacing: normal;
-    word-wrap: normal;
+    padding-top: 30px;
 }
 
-/* RELEASED KEEPERS*/
+
+/*---- Released Keepers ----*/
+
 .released {
-    height: 500px;
+    height: fit-content;
     width: 500px;
     margin: 30px auto;
-    background-color: #73b9e7;
+    background-color: #9e0000;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-.released-info {
-    height: fit-content;
-    width: 90%;
-    background-color: ;
+.released p {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: justify;
+    text-decoration: double;
+    text-transform: none;
+    line-height: 22px;
+    word-spacing: normal;
+    word-wrap: normal;
+    padding: 0 30px;
 }
 
 .released-table {
     height: fit-content;
     width: 90%;
-    background-color: #3c97d3;
-}
-
-.released-table table, th, td {
+    background-color: #6b0000;
+    border: 4px solid whitesmoke;
     border-collapse: collapse;
     border-radius: 0;
-    padding: 10px;
     border-spacing: 0;
-}
-
-.released-table table {
-    width: 100%;
-    border: 4px solid white;
     border-style: solid;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
-.released-table thead {
+.released-table th {
+    border: 2px solid whitesmoke;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
@@ -143,9 +74,11 @@ body {
     line-height: 30px;
     word-spacing: normal;
     word-wrap: normal;
+    padding-left: 4px;
 }
 
-.released-table tbody {
+.released-table td {
+    border: 2px solid whitesmoke;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -157,197 +90,147 @@ body {
     line-height: 30px;
     word-spacing: normal;
     word-wrap: normal;
+    padding-left: 4px;
 }
 
-.released-table th {
-    border: 2px solid white;
-}
 
-.released-table td {
-    border: 2px solid white;
-}
+/*---- Restricted Keepers ----*/
 
-.released-table table tr:nth-child(even) {
-    background-color: ;
-}
-
-/* RESTRICTED KEEPERS*/
 .restricted {
-    height: 875px;
+    height: fit-content;
     width: 500px;
     margin: 30px auto;
-    background-color: #73b9e7;
+    background-color: #9e0000;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-.restricted-info {
-    height: fit-content;
-    width: 90%;
-    background-color: ;
+.restricted p {
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: justify;
+    text-decoration: double;
+    text-transform: none;
+    line-height: 22px;
+    word-spacing: normal;
+    word-wrap: normal;
+    padding: 0 30px;
 }
 
 .restricted-table {
     height: fit-content;
     width: 90%;
-    background-color: #3c97d3;
-}
-
-.restricted-table table, th, td {
+    background-color: #6b0000;
+    border: 4px solid whitesmoke;
     border-collapse: collapse;
     border-radius: 0;
-    padding: 5px;
     border-spacing: 0;
-}
-
-.restricted-table table {
-    width: 100%;
-    border: 4px solid white;
     border-style: solid;
-}
-
-.restricted-table thead {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    font-weight: bold;
-    font-style: none;
-    text-align: none;
-    text-decoration: double;
-    text-transform: none;
-    line-height: 30px;
-    word-spacing: normal;
-    word-wrap: normal;
-}
-
-.restricted-table tbody {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: none;
-    text-align: none;
-    text-decoration: double;
-    text-transform: none;
-    line-height: 30px;
-    word-spacing: normal;
-    word-wrap: normal;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .restricted-table th {
-    border: 2px solid white;
+    border: 2px solid whitesmoke;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    text-decoration: double;
+    text-transform: none;
+    line-height: 30px;
+    word-spacing: normal;
+    word-wrap: normal;
+    padding-left: 4px;
 }
 
 .restricted-table td {
-    border: 2px solid white;
+    border: 2px solid whitesmoke;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    text-decoration: double;
+    text-transform: none;
+    line-height: 30px;
+    word-spacing: normal;
+    word-wrap: normal;
+    padding-left: 4px;
 }
 
-/* TEAMS */
+
+/*---- Teams ----*/
 .teams {
-    height: 500px;
+    background-color: #9e0000;
+    border: 3px solid lightgray;
+    height: 600px;
     width: 500px;
     margin: 30px auto;
-    background-color: none;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
+    justify-content: space-evenly;
+    align-content: space-evenly;
 }
 
-.teams div {
+.teams h2 {
+    width: 100%;
+    padding-top: 0;
+}
+
+.teams a {
     height: 100px;
     width: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.teams div a {
-    padding: 0;
-    text-decoration: none;
-}
-
-.teams .Benci {
-    width: ;
-    background-color: #1e8cd4;;
-}
-
-.teams .Billy {
-    width: ;
-    background-color: #1e8cd4;
-}
-
-.teams .Chris {
-    width: ;
-    background-color: #1e8cd4;
-}
-
-.teams .David {
-    width: ;
-    background-color: #1e8cd4;
-}
-
-.teams .Dyer {
-    width: ;
-    background-color: #1e8cd4;
-}
-
-.teams .Gat {
-    width: ;
-    background-color: #1e8cd4;
-}
-
-.teams .Meg {
-    width: ;
-    background-color: #1e8cd4;
-}
-
-.teams .Mike {
-    width: ;
-    background-color: #1e8cd4;
-}
-
-.teams .Nia {
-    width: ;
-    background-color: #1e8cd4;
-}
-
-.teams .Povio {
-    width: ;
-    background-color: #1e8cd4;
-}
-
-.teams .Scott {
-    width: ;
-    background-color: #1e8cd4;
-}
-
-.teams .Venesco {
-    width: ;
-    background-color: #1e8cd4;
-}
-
-.keeper-information-2023 p {
+    text-align: center;
+    background-color: #6b0000;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 100;
-    font-style: none;
-    text-align: center;
-    text-decoration: double;
-    text-transform: none;
-    line-height: 30px;
-    word-spacing: normal;
-    word-wrap: normal;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid white;
 }
 
-/* Links */
-a {
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-  }
+/*---- Mobile Styling ----*/
+
+@media (max-width: 420px) {
+
+    main h1 {
+        padding: 15px;
+        font-size: 22px;
+    }
+
+    .released {
+        height: fit-content;
+        width: 90%;
+    }
+
+    .restricted {
+        height: fit-content;
+        width: 90%;
+    }
+
+    .teams {
+        height: 800px;
+        width: 90%;
+    }
+
+    .restricted-table td {
+        padding-left: 2px;
+    }
+
+    main {
+        padding-bottom: 0;
+    }
+}
