@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*---- Body ----*/
 
 main {
@@ -233,4 +234,241 @@ main h2 {
     main {
         padding-bottom: 0;
     }
+=======
+/*---- Body ----*/
+
+main {
+    padding-top: 80px;
+}
+
+main h1 {
+    color: white;
+    padding: 25px;
+    background-color: #00000062;
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main h2 {
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+
+/*---- Released Keepers ----*/
+
+.released {
+    height: fit-content;
+    width: 500px;
+    margin: 30px auto;
+    background-color: #9e0000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.released p {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: justify;
+    text-decoration: double;
+    text-transform: none;
+    line-height: 22px;
+    word-spacing: normal;
+    word-wrap: normal;
+    padding: 0 30px;
+}
+
+.released-table {
+    height: fit-content;
+    width: 90%;
+    background-color: #6b0000;
+    border: 4px solid whitesmoke;
+    border-collapse: collapse;
+    border-radius: 0;
+    border-spacing: 0;
+    border-style: solid;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.released-table th {
+    border: 2px solid whitesmoke;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: none;
+    text-align: none;
+    text-decoration: double;
+    text-transform: none;
+    line-height: 30px;
+    word-spacing: normal;
+    word-wrap: normal;
+    padding-left: 4px;
+}
+
+.released-table td {
+    border: 2px solid whitesmoke;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: none;
+    text-align: none;
+    text-decoration: double;
+    text-transform: none;
+    line-height: 30px;
+    word-spacing: normal;
+    word-wrap: normal;
+    padding-left: 4px;
+}
+
+
+/*---- Restricted Keepers ----*/
+
+.restricted {
+    height: fit-content;
+    width: 500px;
+    margin: 30px auto;
+    background-color: #9e0000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.restricted p {
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: justify;
+    text-decoration: double;
+    text-transform: none;
+    line-height: 22px;
+    word-spacing: normal;
+    word-wrap: normal;
+    padding: 0 30px;
+}
+
+.restricted-table {
+    height: fit-content;
+    width: 90%;
+    background-color: #6b0000;
+    border: 4px solid whitesmoke;
+    border-collapse: collapse;
+    border-radius: 0;
+    border-spacing: 0;
+    border-style: solid;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.restricted-table th {
+    border: 2px solid whitesmoke;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    text-decoration: double;
+    text-transform: none;
+    line-height: 30px;
+    word-spacing: normal;
+    word-wrap: normal;
+    padding-left: 4px;
+}
+
+.restricted-table td {
+    border: 2px solid whitesmoke;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    text-decoration: double;
+    text-transform: none;
+    line-height: 30px;
+    word-spacing: normal;
+    word-wrap: normal;
+    padding-left: 4px;
+}
+
+
+/*---- Teams ----*/
+.teams {
+    background-color: #9e0000;
+    border: 3px solid lightgray;
+    height: 600px;
+    width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.teams h2 {
+    width: 100%;
+    padding-top: 0;
+}
+
+.teams a {
+    height: 100px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #6b0000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+/*---- Mobile Styling ----*/
+
+@media (max-width: 420px) {
+
+    main h1 {
+        padding: 15px;
+        font-size: 22px;
+    }
+
+    .released {
+        height: fit-content;
+        width: 90%;
+    }
+
+    .restricted {
+        height: fit-content;
+        width: 90%;
+    }
+
+    .teams {
+        height: 800px;
+        width: 90%;
+    }
+
+    .restricted-table td {
+        padding-left: 2px;
+    }
+
+    main {
+        padding-bottom: 0;
+    }
+>>>>>>> 10d21c1157dc637df8285d54ea9d68961125dd93
 }
