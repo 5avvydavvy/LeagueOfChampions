@@ -38,6 +38,7 @@ table td {
     word-spacing: normal;
     word-wrap: normal;
     padding-left: 4px;
+    border-radius: 20px;
 }
 
 .header-links ul li:nth-child(3) {
@@ -56,6 +57,7 @@ table td {
 
     table td {
         padding-left: 2px;
+        border-radius: 30px;
     }
 
     table th {
@@ -69,5 +71,35 @@ table td {
 
     table td:nth-child(5) {
         display: none;
+    }
+
+    table td:nth-child(2) {
+        text-align: center;
+        padding: 0;
+    }
+
+    table th:nth-child(2) {
+        text-align: center;
+        padding: 0;
+    }
+
+    table td:nth-child(3) {
+        text-align: center;
+        padding: 0;
+    }
+
+    table th:nth-child(3) {
+        text-align: center;
+        padding: 0;
+    }
+
+    table td:nth-child(4) {
+        text-align: center;
+        padding: 0;
+    }
+
+    table th:nth-child(4) {
+        text-align: center;
+        padding: 0;
     }
 }
