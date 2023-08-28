@@ -5,7 +5,6 @@ header {
   height: 80px;
   background-color: black;
   display: flex;
-  justify-content: space-between;
   position: fixed;
 }
 
@@ -21,6 +20,7 @@ header img {
 
 .header-links {
   display: flex;
+  justify-content: space-between;
 }
 
 .header-links ul {
@@ -33,7 +33,7 @@ header img {
 }  
 
 .header-links ul li a {
-  padding: 0 20px;
+  padding: 0 16px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
   line-height: 80px;
 }
@@ -55,11 +55,11 @@ main {
 }
 
 .important-dates {
-  height: fit-content;
+  height: 100%;
   width: 500px;
   background-color: #9e0000;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .important-dates h1 {
@@ -127,16 +127,101 @@ main h3 {
   padding-top: 10px;
 }
 
+.important-dates li {
+  color: whitesmoke;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  font-style: italic;
+  text-align: left;
+  text-decoration: double;
+  text-transform: capitalize;
+  line-height: 18px;
+  word-spacing: normal;
+  word-wrap: normal;
+  text-shadow: 0 0 2px black;
+  padding-top: 10px;
+}
+
+.important-dates ol {
+  padding-bottom: 40px;
+  list-style: decimal;
+  list-style-position: inside;
+  margin: 0 39%;
+}
+
+.important-dates h2 {
+  text-decoration: none;
+}
+
 /*---- Mobile Styling ----*/
 
 @media (max-width: 420px) {
 
   .important-dates {
-    height: fit-content;
+    height: 100%;
     width: 90%;
   }
   
   b {
     font-weight: bold;
   }
+
+  table {
+    width: 90%;
+    border: solid white 2px;
+    margin: 10px auto;
+    padding: 0;
+    border-radius: 10px;
+    border-collapse: collapse;
+    background-color: #6b0000;
+  }
+
+  th {
+    height: 35px;
+    border: solid white 1px;
+    border-top: solid white 3px;
+    padding-left: 4px;
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    vertical-align: middle;
+    font-weight: bold;
+    text-shadow: 0 0 4px black;
+  }
+
+  th:nth-child(3), th:nth-child(5) {
+    width: 35px;
+  }
+
+  td:nth-child(3), td:nth-child(5) {
+    text-align: center;
+    padding: 0;
+  }
+
+  td {
+    height: 50px;
+    border: solid white 1px;
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    word-wrap: break-word;
+    vertical-align: middle;
+    padding-left: 4px;
+  }
+  
+  td:nth-child(1){
+    font-weight: bold;
+  }
+
+  td:nth-child(2), td:nth-child(4) {
+    font-style: italic;
+  }
+
+  tbody tr {
+    border-top: solid white 3px;
+    border-radius: 10px;
+    border-collapse: separate;
+  }
+  
 }
